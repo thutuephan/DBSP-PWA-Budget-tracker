@@ -66,16 +66,15 @@ request.onupgradeneeded = function (e) {
 //   };
 // }
 
-// request.onsuccess = function (e) {
-//   console.log('success');
-//   db = e.target.result;
-
-//   // Check if app is online before reading from db
-//   if (navigator.onLine) {
-//     console.log('Backend online! 🗄️');
-//     checkDatabase();
-//   }
-// };
+request.onsuccess = function(e) {
+    db = e.target.result;
+    
+    // check if app is online before reading from db
+    if (navigator.onLine) {
+        console.log('Backend online!');
+        loadTransaction();
+    }
+};
 
 // const saveRecord = (record) => {
 //   console.log('Save record invoked');
@@ -90,4 +89,4 @@ request.onupgradeneeded = function (e) {
 // };
 
 // Listen for app coming back online
-window.addEventListener('online', checkDatabase);
+window.addEventListener('online', loadTransaction);
