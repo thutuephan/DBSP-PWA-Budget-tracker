@@ -31,8 +31,8 @@
   * The user can view the total duration of each workout from the past seven workouts on the stats page.
 
   ## Links
-  * The URL of the GitHub repository with a unique name and a README describing the project: https://github.com/thutuephan/BGtfToEv-WO-Tracker
-  * The heroku URL of the functional, deployed application: https://alice-fitness-tracker.herokuapp.com/)  
+  * The URL of the GitHub repository with a unique name and a README describing the project: https://github.com/thutuephan/DBSP-PWA-Budget-tracker
+  * The heroku URL of the functional, deployed application: https://alice-budget-tracker.herokuapp.com/ 
 
   ## Screenshots
   ![budget-tracker](https://github.com/thutuephan/DBSP-PWA-Budget-tracker/blob/main/public/images/budget1.png)
