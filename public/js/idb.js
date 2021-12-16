@@ -4,12 +4,12 @@ let db;
 const request = indexedDB.open('BudgetDB', 1);
 
 request.onupgradeneeded = function (e) {
-  // console.log('Upgrade needed in IndexDB');
+  console.log('Upgrade needed in IndexDB');
 
-  // const { oldVersion } = e;
-  // const newVersion = e.newVersion || db.version;
+  const { oldVersion } = e;
+  const newVersion = e.newVersion || db.version;
 
-  // console.log(`DB Updated from version ${oldVersion} to ${newVersion}`);
+  console.log(`DB Updated from version ${oldVersion} to ${newVersion}`);
 
   db = e.target.result;
   db.createObjectStore('BudgetStore', { autoIncrement: true });
