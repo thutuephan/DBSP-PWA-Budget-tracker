@@ -1,23 +1,23 @@
-const { response } = require("express");
-
 let db;
 
 // Create a new db request for a 'budget' database.
 const request = indexedDB.open('BudgetDB', 1);
 
 request.onupgradeneeded = function (e) {
-  console.log('Upgrade needed in IndexDB');
+  // console.log('Upgrade needed in IndexDB');
 
-  const { oldVersion } = e;
-  const newVersion = e.newVersion || db.version;
+  // const { oldVersion } = e;
+  // const newVersion = e.newVersion || db.version;
 
-  console.log(`DB Updated from version ${oldVersion} to ${newVersion}`);
+  // console.log(`DB Updated from version ${oldVersion} to ${newVersion}`);
 
   db = e.target.result;
+  db.createObjectStore('BudgetStore', { autoIncrement: true });
 
-  if (db.objectStoreNames.length === 0) {
-    db.createObjectStore('BudgetStore', { autoIncrement: true });
-  }
+  // db.createObjectStore();
+  // if (db.objectStoreNames.length === 0) {
+  //   db.createObjectStore('BudgetStore', { autoIncrement: true });
+  // }
 };
 
 request.onsuccess = function(e) {
@@ -37,6 +37,7 @@ request.onerror = function (e) {
 };
 
 function saveRecord(record) {
+  console.log('save record invoked');
   // this is actually where we save the data while we're offline
   const transaction = db.transaction(['BudgetStore'], 'readwrite');
   const budgetObjectStore = transaction.objectStore('BudgetStore');
