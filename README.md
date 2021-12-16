@@ -35,9 +35,9 @@
   * The heroku URL of the functional, deployed application: https://alice-fitness-tracker.herokuapp.com/)  
 
   ## Screenshots
-  ![fitness-tracker](https://github.com/thutuephan/BGtfToEv-WO-Tracker/blob/main/public/images/fitness-tracker-distance.png)
-  ![fitness-tracker2](https://github.com/thutuephan/BGtfToEv-WO-Tracker/blob/main/public/images/fitness-tracker2.png)
-  ![fitness-dashboard-graph](https://github.com/thutuephan/BGtfToEv-WO-Tracker/blob/main/public/images/fitness-dashboard2.png)
+  ![budget-tracker](https://github.com/thutuephan/DBSP-PWA-Budget-tracker/blob/main/public/images/budget1.png)
+  ![budget-tracker2](https://github.com/thutuephan/DBSP-PWA-Budget-tracker/blob/main/public/images/budget2.png)
+  
 
   ## Credits
   * THU PHAN  
