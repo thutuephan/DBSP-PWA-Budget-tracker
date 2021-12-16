@@ -43,8 +43,6 @@
   * THU PHAN  
   * Instructional Staff
   * BCS Learning Assistant
-  * Tutor: Phil Loy
-  * Classmates: Chris Stallcup, Bonnie Reed, Konner Hartman, Corbin Ball
   
   ## License - This project is licensed under the MIT license.
   MIT
