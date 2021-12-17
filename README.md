@@ -28,10 +28,8 @@
     * When brought back online, offline entries should be added to tracker so that the user can track their transaction history
     
   ## Links
-    * The URL of the GitHub repository with a unique name and a README describing the project: 
-    https://github.com/thutuephan/DBSP-PWA-Budget-tracker
-    * The heroku URL of the functional, deployed application: 
-    https://alice-budget-tracker.herokuapp.com/ 
+  * The URL of the GitHub repository: https://github.com/thutuephan/DBSP-PWA-Budget-tracker
+  * The heroku URL of the functional, deployed application: https://alice-budget-tracker.herokuapp.com/ 
 
   ## Screenshots
   ![budget-tracker](https://github.com/thutuephan/DBSP-PWA-Budget-tracker/blob/main/public/images/budget1.png)
