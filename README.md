@@ -5,7 +5,7 @@
   > Keep smiling and work harder
   
   ## Description
-    This fitness tracker app is created by using Mongo database with a Mongoose schema and handle routes with Express, CRUD. The user can easily track his daily workouts with the organized details such as date; name, type, total duration, sets, weight, reps of each exercise. 
+    This budget tracker app is created to allow a user to track/add their expenses and deposits to their budget with or without an internet connection. When entering transactions offline, they should populate the total when brought back online.
   
 
   ## Table of Contents
@@ -19,20 +19,19 @@
   - [License](#license)
 
   ## Installation
-  1. Create the file packages include `.gitignore` file `node_modules/`, `package-lock.json`, `package.json`. 
-  2. Run the command-lines to install packages and libraries; navigate to http://localhost:3000/ to see the page
+   Run the command-lines to install packages and libraries; navigate to http://localhost:3000/ to see the page
     `npm install` 
-    `npm run watch`
-    `npm run seed`
+    `npm start`
 
   ## Usage
-  * The app will allow users to view and track daily workouts. When users get on the landing page, they will be presented a board with 2 options which are continue workout and new workout. By clicking on each button, a user can get, create or/and update new workout plan.
-  * The user can view the combined weight of multiple exercises from the past seven workouts on the stats page.
-  * The user can view the total duration of each workout from the past seven workouts on the stats page.
-
+    * When offline, the user enters deposits or expenses 
+    * When brought back online, offline entries should be added to tracker so that the user can track their transaction history
+    
   ## Links
-  * The URL of the GitHub repository with a unique name and a README describing the project: https://github.com/thutuephan/DBSP-PWA-Budget-tracker
-  * The heroku URL of the functional, deployed application: https://alice-budget-tracker.herokuapp.com/ 
+    * The URL of the GitHub repository with a unique name and a README describing the project: 
+    https://github.com/thutuephan/DBSP-PWA-Budget-tracker
+    * The heroku URL of the functional, deployed application: 
+    https://alice-budget-tracker.herokuapp.com/ 
 
   ## Screenshots
   ![budget-tracker](https://github.com/thutuephan/DBSP-PWA-Budget-tracker/blob/main/public/images/budget1.png)
@@ -65,12 +64,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   * GitHub: [@thutuephan](https://github.com/thutuephan)
   * Email: [alicebe.phan@gmail.com](mailto:alicebe.phan@gmail.com)
 
-  ## Resources and Tutorials
-  * https://docs.mongodb.com/manual/reference/operator/aggregation/addFields/
 
-  * https://docs.mongodb.com/manual/reference/operator/aggregation/sum/
-
-  * https://smu.bootcampcontent.com/SMU-Coding-Bootcamp/smu-dal-fsf-pt-07-2021-u-c/-/blob/master/18-NoSQL/04-Important/MongoAtlas-Deploy.md
   
 
   
